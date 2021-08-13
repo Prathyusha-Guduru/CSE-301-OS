@@ -4,7 +4,7 @@ if [ -f "$FILENAME" ]
 	then
 		echo "File exists"
 	 # grep -i "lorem ipsum" "$FILENAME"
-		 grep -o -i lorem "$FILENAME" | wc -l
+		 grep -c -i "lorem" "$FILENAME" 
 	else
 		echo "File does not exist"
 fi

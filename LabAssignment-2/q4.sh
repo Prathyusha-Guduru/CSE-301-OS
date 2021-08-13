@@ -9,7 +9,7 @@ then
 fi
  
 # use stat command to display 
-echo "$fileName was last modified on $(stat -c %x $fileName)"
+echo "$fileName was last modified on $(stat -c %y $fileName)"
 
 
 

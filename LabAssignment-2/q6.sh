@@ -10,5 +10,5 @@ then
 	exit 1
 fi
  
-sed -e 's/[\t ]//g;/^$/d' $file > $out
+sed -e 's/[\t ]//g;/^$/d' $FILENAME > $out
 echo "Output written to $out file"
