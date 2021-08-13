@@ -1,3 +1,4 @@
+output = "upper-case-output.txt"
 echo -n "Enter a text file name : "
 read file
  
@@ -7,4 +8,4 @@ then
 	exit 1
 fi
  
-cat $file | tr '[A-Z]' '[a-z]'
+tr '[A-Z]' '[a-z]' <	$file > $output
