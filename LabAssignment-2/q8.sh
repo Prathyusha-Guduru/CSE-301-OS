@@ -32,5 +32,7 @@ then
 	exit 1
 fi
  
-tr [:upper:] [:lower:] < "$FILENAME" > q8-Output.txt
-echo "Output written to q8Output.txt file"
+tr [:upper:] [:lower:] < "$FILENAME" > new8-Output.txt
+echo "Output written to new8Output.txt file"
+
+
