@@ -1,4 +1,4 @@
-start=LabAssignment-3
+start=$HOME
 [ $# -eq 1 ] && start=$1 || :
 if [ ! -d $start ] 
 then
